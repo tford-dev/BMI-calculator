@@ -36,7 +36,7 @@ while True:
         elif met.bmi_met() >= 30:
             print("Based on your BMI, you are considered obese, but note that the BMI scale does not take into account muscle mass.")
         else:
-            print("You are in the health range!")
+            print("You are in the healthy range!")
 
     elif choice == '2':
         lbs = float(input("Enter your weight in pounds(lbs): "))
